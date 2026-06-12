@@ -1,0 +1,89 @@
+h1{
+	text-align: center;
+    color: gray;
+    text-decoration: underline;
+}
+.bio-page{
+    border: 1px solid white;
+	inline-size: 750px;
+    margin-inline: auto;
+    padding: 20px;
+	box-shadow: 0 10px 20px;
+	border-radius: 40px; 
+	overflow: hidden;
+    margin-block-start: 20px;
+}
+.intro{
+    border: 1px solid white;
+	inline-size: 500px;
+    block-size: 80px;
+    padding: 20px;
+	box-shadow: 0 5px 10px;
+	border-radius: 40px; 
+	overflow: hidden;
+    text-align: center;
+    margin-inline-start: 100px;
+    background-color: aliceblue;
+}
+.page{
+    display: flex;
+    gap: 15px;
+}
+.hobbies{
+    border: 1px solid white;
+	inline-size: 200px;
+    block-size: 130px;
+    padding: 20px;
+	box-shadow: 0 5px 10px;
+	border-radius: 40px; 
+	overflow: hidden;
+}
+.goal{
+    border: 1px solid white;
+	inline-size: 200px;
+    block-size: 130px;
+    padding: 20px;
+	box-shadow: 0 5px 10px;
+	border-radius: 40px; 
+	overflow: hidden;
+}
+.site{
+    border: 1px solid white;
+	inline-size: 200px;
+    block-size: 130px;
+    padding: 20px;
+	box-shadow: 0 5px 10px;
+	border-radius: 40px; 
+}
+h2{
+    text-align: center;
+}
+a{
+    color: gold;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+a:hover{
+    color: aquamarine;
+}
+footer{
+    text-align: center;
+    border-block-start: 1px solid rgb(153, 148, 148);
+    margin-block-start: 30px;
+    
+}
+img{
+    width: 130px;
+    height: 130px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+.image{
+    text-align: right;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}

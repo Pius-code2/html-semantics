@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet"href="css/scheme.css">
+</head>
+<body>
+   <div class="form">
+		<div id="navigation">
+			<a href="scheme1.html">Home</a>
+        	<a href="scheme2.html">About</a>
+        	<a href="scheme3.html">Contact</a>
+		</div>
+		<h1>Register</h1>
+	    <form action="scheme2.html" method="post">
+			<div>
+				<fieldset>
+					<legend>Personal Info</legend>
+					<label for="name">Surname</label><br>
+					<input type="text" name="Surname"><br>
+
+					<label for="name">First Name</label><br>
+					<input type="text" alt="first name"><br>
+
+					<label for="name">Other Names</label><br>
+					<input type="text" name="Surname"><br>
+
+					<label for="date">DOB</label>
+					<input type="date" id="dob"><br>
+
+					<label for="name">Gender</label><br>
+					<input type="radio"id="source-male"name="source"value="male">
+					<label for="source-google">male</label>
+
+					<input type="radio"id="source-female"name="source"value="female">
+					<label for="source-friend">femal</label><br>
+
+
+					<label for="status">Marital Status</label><br>
+					<input type="radio" id="single" name="source" value="single">
+					<label for="gender">single</label>
+					<input type="radio" id="married" name="source" value="married">
+					<label for="gender">married</label>
+				</fieldset>
+			</div>
+			<div class="Security">
+				<fieldset>
+					<legend>Private Info</legend>
+					<label for="phone">Pin:</label><br>
+					<input type="password"id="phone"name="phone"><br>
+
+					<label for="phone">Confirm Pin:</label><br>
+					<input type="password"id="phone"name="phone"><br>
+
+					<label for="country">Security Questions:</label>
+					<select id="Security"name="Questions"required>
+					<option value="">what is your favorite color</option>
+					<option value="ng">What is your favourite sports</option>
+					<option value="gh">What do you like at the age of 12</option>
+					<option value="ke">What is the name of your best friend</option>
+					<option value="za">who was your best teacher in primary school</option>
+					</select><br>
+
+					<label for="phone">Enter the answer:</label>
+					<input type="password"id="phone"name="phone"><br>
+				</fieldset>
+			</div>
+
+			<div class="Security">
+				<fieldset>
+					<legend>Log-In Info</legend>
+					<label for="name">User name</label><br>
+					<input type="name" id="phone" name="phone"><br>
+
+					<label for="email">Email</label><br>
+					<input type="email" id="email" name="email"><br>
+
+					<label for="phone">Phone</label><br>
+					<input type="text" id="phone" name="phone"><br>
+
+					<label for="phone">Pin:</label><br>
+					<input type="password"id="phone"name="phone"><br>
+
+					<label for="phone">Confirm Pin:</label><br>
+					<input type="password"id="phone"name="phone"><br>
+				</fieldset>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend>Contact Info</legend>
+					<label for="phone">Phone Number:</label><br>
+					<input type="tel"id="phone"name="phone"><br>
+
+					<label for="email">Email Address:</label><br>
+					<input type="email"id="email"name="email"required><br>
+
+					<label for="name">Residence address</label><br>
+					<input type="text" name="Surname"><br>
+
+					<label for="name">LGA</label><br>
+					<input type="text" name="lga"><br>
+
+					<label for="name">State of Origin</label><br>
+					<input type="text" name="state"><br>
+				</fieldset>
+			</div>
+			
+
+		<footer>
+			<button type="submit"><a  class="register" href="scheme1.html">Register</a></button>
+			<p>already registerd <a href="scheme2.html">Log in</a></p>
+		</footer>
+		
+		</form>
+   	</div>
+	
+</body>
+</html>

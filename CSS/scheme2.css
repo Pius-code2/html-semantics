@@ -1,0 +1,56 @@
+.slidebar{
+	border: 1px solid white;
+	inline-size: 550px;
+	margin-inline: auto;
+	margin-block-start:100px ;
+	background:linear-gradient(140deg, #d8a7c9 50%, #a18cd1 50%, #2a2a4e 100%) ;
+	box-shadow: 0 25px 50px;
+	border-radius: 40px; 
+	overflow: hidden;
+}
+input{
+	width: 50%;
+	background: transparent;
+	color: black;
+	padding: 10px  20px 10px 0;
+	font-size: 1rem;
+	border-inline: none;
+	border-block-start:none ;
+	margin-inline-start: 50px;
+	margin-block-end: 10px;
+}
+h1{
+	text-align: center;
+	color: #4a3a63;	
+	margin-block-end:20px ;
+	font-family:sans-serif;
+}
+label{
+	font-size: 0.8rem;
+	color: #444;
+	font-weight: 600;
+	margin-inline-start:50px ;
+	display: block;
+}
+button{
+	cursor: pointer;
+	background: #4a4a6a;
+	padding: 15px;
+	width: 50%;
+	border-radius: 50px;
+	border: none;
+	font-weight: 600;
+	font-size: 1.1rem;
+	margin-block-end:5px ;
+	margin-block-start: 10px;
+}
+footer{
+	text-align: center;
+}
+a:hover{
+	color: #444;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
